@@ -1,0 +1,22 @@
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+
+.productosDestacados{
+    filter: grayscale(0.4);
+}
+
+.productosDestacados:hover{
+    filter: grayscale(0);
+    transition: 400ms;
+}
+
+
+@media all and (max-width: 767px){
+    .bannerPanaderia{
+        height: 250px;
+        object-fit: cover;
+    }
+}
